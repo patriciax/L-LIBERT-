@@ -285,16 +285,19 @@ Nav
 .txt {
   font-size: 15px;
   margin-top: 15px;
-  cursor: url("http://imgfz.com/i/aCAoKml.png") ,
+  cursor: url("../img/cursor.png") ,
   pointer;
+  border-radius: 50%;
 }
 .home-style a{
-  cursor: url("http://imgfz.com/i/aCAoKml.png") ,
+   cursor: url("../img/cursor.png") ,
   pointer;
+  border-radius: 50%;
 }
 .gridywrap a{
-  cursor: url("http://imgfz.com/i/aCAoKml.png") ,
+  cursor: url("../img/cursor.png") ,
   pointer;
+  border-radius: 50%;
 }
 /*********** */
 img {
@@ -412,12 +415,14 @@ img {
   bottom: 0;
   position: absolute;
   z-index: 1;
-  cursor: url("http://imgfz.com/i/aCAoKml.png") ,
+    cursor: url("../img/cursor.png") ,
   pointer;
+
 }
 .brand{
-  cursor: url("http://imgfz.com/i/aCAoKml.png") ,
+  cursor: url("../img/cursor.png") ,
   pointer;
+
 }
 .card-effect:hover .border:before,
 .card-effect.hover .border:before,
