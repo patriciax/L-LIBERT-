@@ -315,7 +315,8 @@ img {
 .card-effect {
   position: relative;
   overflow: hidden;
-  margin: 7px;
+  margin: 22px;
+  margin-bottom: 3rem;
   padding: 6px;
   min-width: 230px;
   max-width: 400px;
@@ -1201,4 +1202,18 @@ div#galeria:hover img:hover {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+.invertir-color{
+  filter: invert(1);
+}
+.nav-link-white{
+  color: #fff!important;
+}
+.espacios-m6{
+  margin: 8rem 0;
+}
+.redes-nav{
+  position: absolute;
+  right: -6rem;
+  display: flex;
 }
