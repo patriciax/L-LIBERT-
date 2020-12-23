@@ -12,6 +12,10 @@
   font-family: "secciones";
   src: url(../fonts/MessinaSerif-Light.ttf);
 }
+p{
+  font-family: 'Roboto', sans-serif!important;
+
+}
 
   *{
   box-sizing: inherit;
@@ -242,6 +246,7 @@ Nav
   text-align: center;
   display: flex;
   justify-content: center;
+      position: relative;
 }
 
 .menu-flex {
@@ -257,7 +262,7 @@ Nav
 .navbar-expand-md .navbar-nav .nav-link {
   color: #000;
   font-family: "secciones";
-  font-size: 12px;
+  font-size: 10px;
   padding-left: 50px;
 }
 
@@ -266,7 +271,8 @@ Nav
 }
 
 .redes svg {
-  width: 24px;
+  width: 16px;
+  fill: #858481;
 
 }
 
@@ -661,21 +667,20 @@ p {
 }
 
 .timeline__content-title {
-  font-weight: normal;
-  font-size: 45px;
-  margin: -10px 0 0 0;
-  transition: 0.4s;
-  padding: 0 10px;
-  box-sizing: border-box;
-
-  color: #fff;
+font-weight: normal;
+    font-size: 45px;
+    margin: 7px 0 0 0;
+    transition: 0.4s;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #282828;
 }
 
 .timeline__content-desc {
   margin: 0;
   font-size: 15px;
   box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.7);
+      color: rgb(0 0 0 / 70%);
 
   font-weight: normal;
   line-height: 25px;
@@ -688,7 +693,7 @@ p {
   height: 100%;
   margin-left: -1px;
   content: "";
-  background: rgba(255, 255, 255, 0.07);
+     background: rgb(0 0 0 / 7%);
 }
 
 @media only screen and (max-width: 767px) {
@@ -699,8 +704,8 @@ p {
 
 .timeline-item {
   padding: 40px 0;
-  opacity: 0.3;
-  filter: blur(2px);
+  opacity: 1;
+ /* filter: blur(2px);*/
   transition: 0.5s;
   box-sizing: border-box;
   width: calc(50% - 40px);
@@ -797,7 +802,8 @@ p {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(99, 99, 99, 0.8);
+      background: transparent;
+  /*background: rgba(99, 99, 99, 0.8);*/
   content: "";
 }
 
@@ -1218,7 +1224,7 @@ div#galeria:hover img:hover {
   margin: 8rem 0;
 }
 .redes-nav{
-  position: absolute;
-  right: -6rem;
-  display: flex;
+ position: absolute;
+    right: 0;
+    display: flex;
 }
